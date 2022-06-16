@@ -9,7 +9,8 @@ require("dotenv").config();
 
 const usersRotes = require('./routes/users');
 
-app.use(bodyParser.json({ extended: false }));
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: false }));
 
 app.use("/users", usersRotes);
 
