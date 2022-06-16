@@ -1,0 +1,20 @@
+{
+  "name": "auction-market-server",
+  "version": "1.0.0",
+  "description": "Auction-Market server app",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Stas Kolkovsky",
+  "license": "MIT", 
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16"
+  },
+  "devDependencies": {
+    "eslint": "^8.17.0",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.7.1"
+  }
+}
